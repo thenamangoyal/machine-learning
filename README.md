@@ -7,7 +7,7 @@
 
 | #  |  Topic |
 |---|---|
-|1|Supervised Learning - Decision Tree|
+|1|<a href="Supervised Learning">Supervised Learning - Decision Tree</a>|
 
 Note
 ----
