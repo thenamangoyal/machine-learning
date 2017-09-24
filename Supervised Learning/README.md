@@ -61,5 +61,5 @@ $chmod 755 script.sh
 Feel free to email at 2015csb1021@iitrpr.ac.in for any clarification.
 
 Developed by
-------------
+
 Naman Goyal
