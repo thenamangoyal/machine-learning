@@ -106,5 +106,6 @@ task4(2,0.01)
 * The code was developed and tested in Matlab 2017a. If possible, use the same version.
 
 Developed by
-Koustav Das
+------------
 Naman Goyal
+Koustav Das
