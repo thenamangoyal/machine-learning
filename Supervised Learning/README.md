@@ -6,13 +6,14 @@ Introduction
 
 Experimenting with decision tree based inductive classifier using early stopping, noise, post pruning, random forests.
 
-* Please refer to Report.pdf for detailed analysis.
+* Please refer to [Report.pdf](Report.pdf) for detailed analysis.
+* Please refer to [lab.pdf](lab.pdf) for about the project.
 
 Directory Structure
 -------------------
-
+<pre>
 ---README
----l1.pdf
+---lab.pdf
 ---Report.pdf
 ---code
 	|
@@ -32,7 +33,7 @@ Directory Structure
 	|--test
 		|
 		|--labeledBow.feat
-
+</pre>
 
 Executing
 ---------
