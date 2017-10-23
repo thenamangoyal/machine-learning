@@ -7,8 +7,8 @@
 
 | #  |  Topic |
 |---|---|
-|1|<a href="Supervised Learning">Supervised Learning - Decision Tree</a>|
-|2|<a href="Linear and Logistic Regression">Linear and Logistic Regression</a>|
+|1|<a href="Decision_Tree">Decision Tree</a>|
+|2|<a href="Linear_and_Logistic_Regression">Linear and Logistic Regression</a>|
 
 Note
 ----
