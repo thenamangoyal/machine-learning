@@ -12,7 +12,7 @@ This project contains two parts
 
 
 * Please refer to [Report.pdf](Report.pdf) for detailed analysis.
-* Please refer to [lab.pdf](lab.pdf) for about the project.
+* Please refer to [lab.pdf](lab.pdf) for details about the project.
 * The code was developed and tested in Matlab 2017a. If possible, use the same version.
 
 Directory Structure
