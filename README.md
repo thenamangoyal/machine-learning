@@ -9,6 +9,7 @@
 |---|---|
 |1|<a href="Decision_Tree">Decision Tree</a>|
 |2|<a href="Linear_and_Logistic_Regression">Linear and Logistic Regression</a>|
+|2|<a href="Neural Network">Neural Network</a>|
 
 Note
 ----
