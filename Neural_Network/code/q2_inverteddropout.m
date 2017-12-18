@@ -156,9 +156,9 @@ for epoch = 1:nEpochs
     % compute the training error
     % forward pass of the network
     
-    trainout = testgpu(trainX,lay,nl);
+    trainout = forward_inverted(trainX,lay,nl);
     
-    valout = testgpu(valX,lay,nl);
+    valout = forward_inverted(valX,lay,nl);
     
     trainerror(epoch) = (norm(trainY-trainout).^2);
     valerror(epoch) = (norm(valY-valout).^2);
@@ -172,7 +172,7 @@ for epoch = 1:nEpochs
         fprintf(' Val++ minVal %f',min(valerror(1:epoch-1)));
         
     else
-        testbestprediction = testgpu(testX,lay,nl);
+        testbestprediction = forward_inverted(testX,lay,nl);
         dlmwrite((['predict/',num2str(valerror(epoch)),'_epoch_',num2str(epoch),'_','.txt']),testbestprediction,'precision',12);
     end
     fprintf('\n');
