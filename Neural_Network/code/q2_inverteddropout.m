@@ -2,7 +2,7 @@ close all;
 clear all;
 % rng('default');
 % Getdata
-re_read = treu;
+re_read = true;
 if re_read==true
    [X,Y] = gettraindata(fullfile('.','steering'),'data.txt');
    save('wholeTraindata.mat','X','Y'); % no separation in validation or train set

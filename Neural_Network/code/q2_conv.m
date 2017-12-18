@@ -2,7 +2,7 @@ close all;
 clear all;
 % % rng('default');
 % % Getdata
-re_read = false;
+re_read = true;
 if re_read==true
    [X,Y] = gettraindata(fullfile('.','steering'),'data.txt');
    save('wholeTraindata.mat','X','Y'); % no separation in validation or train set
@@ -26,7 +26,7 @@ valY = gpuArray(Y(split(split_n+1:N),:));
 fprintf('Create train and validation set in %f sec\n',toc(sep));
 % 
 % %% Read Test Data
-re_read_test = false;
+re_read_test = true;
 if re_read_test==true
    [testX] = gettestdata(fullfile('.'),'test-data.txt');
    save('wholeTestdata.mat','testX'); % no separation in validation or train set
