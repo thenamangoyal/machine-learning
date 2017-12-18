@@ -2,12 +2,8 @@ To Run
 ======
 
 Code was tested on Matlab 2017a.
-Add steering and test data to code folder.
 
 Final result in Prediction.txt
-
-To run
-------
 
 In code folder
 
