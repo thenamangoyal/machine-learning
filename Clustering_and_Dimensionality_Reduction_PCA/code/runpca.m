@@ -1,5 +1,5 @@
 function [ rawprojX, U, transX ] = runpca( rawX , elim)
-%UNTITLED5 Summary of this function goes here
+%runpca Summary of this function goes here
 %   Detailed explanation goes here
     N = size(rawX,1); % no of data points
     D = size(rawX,2);

@@ -10,7 +10,7 @@
 |1|<a href="Decision_Tree">Decision Tree</a>|
 |2|<a href="Linear_and_Logistic_Regression">Linear and Logistic Regression</a>|
 |3|<a href="Neural_Network">Neural Network and Self Driving Car</a>|
-|4|<a href="PCA_LDA">PCA and LDA</a>|
+|4|<a href="Clustering_and_Dimensionality_Reduction_PCA">Clustering and Dimensionality Reduction (PCA)</a>|
 
 Note
 ----
